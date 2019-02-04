@@ -26,6 +26,8 @@
    
    <h3> Reason why I have only C & C++ projects </h3>
    <p> I am very interested working as a backend developer. However, our school teaches Java on 4th semester. So, I created all of my projects with the language that I learned from 1st semester to 3rd semester. As you can see my projects, I have developed my algorithm, problem solving skills by going through these projects.</p>
+   
+   <h2> Here is the projects that I worked on: </h2>
   </body>
 </html>
 
