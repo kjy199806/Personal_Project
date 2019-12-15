@@ -11,18 +11,21 @@ import SpriteKit
 import GameplayKit
 
 class GameViewController: UIViewController {
+    
+    var username = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
             if let scene = SKScene(fileNamed: "Menu") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
-                
+                scene.userData = NSMutableDictionary()
+                scene.userData?.setObject(username ?? "", forKey: "username" as NSCopying)
                 // Present the scene
                 view.presentScene(scene)
+            
             }
             
             view.ignoresSiblingOrder = true

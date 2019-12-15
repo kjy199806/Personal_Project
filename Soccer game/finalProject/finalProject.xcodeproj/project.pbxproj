@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6AA41522F33F5400684872 /* ScoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3E6AA41422F33F5400684872 /* ScoreScene.sks */; };
+		3E6AA41722F341C700684872 /* ScoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AA41622F341C700684872 /* ScoreScene.swift */; };
+		3E6AA41922F3440000684872 /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3E6AA41822F3440000684872 /* EndScene.sks */; };
+		3E6AA41B22F3445200684872 /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AA41A22F3445200684872 /* EndScene.swift */; };
 		3EB0274122F0E4A500B566D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0274022F0E4A500B566D4 /* AppDelegate.swift */; };
 		3EB0274522F0E4A500B566D4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB0274422F0E4A500B566D4 /* Actions.sks */; };
 		3EB0274722F0E4A500B566D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0274622F0E4A500B566D4 /* GameScene.swift */; };
@@ -18,9 +22,16 @@
 		3EB0275B22F0EB9000B566D4 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0275A22F0EB9000B566D4 /* MainMenu.swift */; };
 		3EB0275D22F0F9E000B566D4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB0275C22F0F9E000B566D4 /* Button.swift */; };
 		3EB0275F22F1097C00B566D4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB0275E22F1097C00B566D4 /* GameScene.sks */; };
+		3EB339FD22F37FBF00D3E49A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB339FC22F37FBF00D3E49A /* LoginViewController.swift */; };
+		3EB33A0322F381A500D3E49A /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EB33A0122F381A500D3E49A /* Database.xcdatamodeld */; };
+		3EB33A0522F3842A00D3E49A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB33A0422F3842A00D3E49A /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E6AA41422F33F5400684872 /* ScoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ScoreScene.sks; sourceTree = "<group>"; };
+		3E6AA41622F341C700684872 /* ScoreScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreScene.swift; sourceTree = "<group>"; };
+		3E6AA41822F3440000684872 /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
+		3E6AA41A22F3445200684872 /* EndScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScene.swift; sourceTree = "<group>"; };
 		3EB0273D22F0E4A500B566D4 /* finalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB0274022F0E4A500B566D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EB0274422F0E4A500B566D4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -34,6 +45,9 @@
 		3EB0275A22F0EB9000B566D4 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		3EB0275C22F0F9E000B566D4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		3EB0275E22F1097C00B566D4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3EB339FC22F37FBF00D3E49A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3EB33A0222F381A500D3E49A /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		3EB33A0422F3842A00D3E49A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +64,6 @@
 		3EB0273422F0E4A500B566D4 = {
 			isa = PBXGroup;
 			children = (
-				3EB0275E22F1097C00B566D4 /* GameScene.sks */,
 				3EB0273F22F0E4A500B566D4 /* finalProject */,
 				3EB0273E22F0E4A500B566D4 /* Products */,
 			);
@@ -67,17 +80,25 @@
 		3EB0273F22F0E4A500B566D4 /* finalProject */ = {
 			isa = PBXGroup;
 			children = (
+				3EB0275E22F1097C00B566D4 /* GameScene.sks */,
 				3EB0274022F0E4A500B566D4 /* AppDelegate.swift */,
 				3EB0275C22F0F9E000B566D4 /* Button.swift */,
 				3EB0275A22F0EB9000B566D4 /* MainMenu.swift */,
+				3E6AA41822F3440000684872 /* EndScene.sks */,
+				3E6AA41A22F3445200684872 /* EndScene.swift */,
+				3E6AA41422F33F5400684872 /* ScoreScene.sks */,
 				3EB0274422F0E4A500B566D4 /* Actions.sks */,
 				3EB0274622F0E4A500B566D4 /* GameScene.swift */,
+				3E6AA41622F341C700684872 /* ScoreScene.swift */,
 				3EB0274822F0E4A500B566D4 /* GameViewController.swift */,
 				3EB0275822F0E85D00B566D4 /* Menu.sks */,
 				3EB0274A22F0E4A500B566D4 /* Main.storyboard */,
+				3EB33A0422F3842A00D3E49A /* RegisterViewController.swift */,
+				3EB339FC22F37FBF00D3E49A /* LoginViewController.swift */,
 				3EB0274D22F0E4A500B566D4 /* Assets.xcassets */,
 				3EB0274F22F0E4A500B566D4 /* LaunchScreen.storyboard */,
 				3EB0275222F0E4A500B566D4 /* Info.plist */,
+				3EB33A0122F381A500D3E49A /* Database.xcdatamodeld */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -140,12 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6AA41922F3440000684872 /* EndScene.sks in Resources */,
 				3EB0275922F0E85D00B566D4 /* Menu.sks in Resources */,
 				3EB0274C22F0E4A500B566D4 /* Main.storyboard in Resources */,
 				3EB0274E22F0E4A500B566D4 /* Assets.xcassets in Resources */,
 				3EB0275122F0E4A500B566D4 /* LaunchScreen.storyboard in Resources */,
 				3EB0275F22F1097C00B566D4 /* GameScene.sks in Resources */,
 				3EB0274522F0E4A500B566D4 /* Actions.sks in Resources */,
+				3E6AA41522F33F5400684872 /* ScoreScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,8 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB0275D22F0F9E000B566D4 /* Button.swift in Sources */,
+				3EB33A0522F3842A00D3E49A /* RegisterViewController.swift in Sources */,
+				3E6AA41B22F3445200684872 /* EndScene.swift in Sources */,
 				3EB0274722F0E4A500B566D4 /* GameScene.swift in Sources */,
 				3EB0274922F0E4A500B566D4 /* GameViewController.swift in Sources */,
+				3EB33A0322F381A500D3E49A /* Database.xcdatamodeld in Sources */,
+				3EB339FD22F37FBF00D3E49A /* LoginViewController.swift in Sources */,
+				3E6AA41722F341C700684872 /* ScoreScene.swift in Sources */,
 				3EB0274122F0E4A500B566D4 /* AppDelegate.swift in Sources */,
 				3EB0275B22F0EB9000B566D4 /* MainMenu.swift in Sources */,
 			);
@@ -308,6 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = finalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = finalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EB33A0122F381A500D3E49A /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EB33A0222F381A500D3E49A /* Database.xcdatamodel */,
+			);
+			currentVersion = 3EB33A0222F381A500D3E49A /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3EB0273522F0E4A500B566D4 /* Project object */;
 }
