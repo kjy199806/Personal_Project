@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/groceryIngredientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/groceryIngredientQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:text="Quantity"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/removeIngredientBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity ="right"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_remove_shopping_cart_black_24dp" />
+</LinearLayout>
+

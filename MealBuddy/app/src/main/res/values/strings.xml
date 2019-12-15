@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MealBuddy</string>
+    <string name="navigation_draw_open">Open Navigation drawer</string>
+    <string name="navigation_draw_close">Close Navigation drawer</string>
+    <string-array name="gender_arrays">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string name="country_prompt">Gender</string>
+    <string name="about_information">In today\'s society, people have busy schedules and maintaining
+        a healthy meal plan is difficult to do. Additionally, people cannot keep track of
+        what is inside their fridges and maintain a healthy meal plan. Our application will
+        provide convenience for users in helping them to decide what to eat based on their
+        specifications.</string>
+    <string name="policy_information">We are not responsible for any food allergy and qualities. </string>
+</resources>

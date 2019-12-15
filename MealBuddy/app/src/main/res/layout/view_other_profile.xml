@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/viewOtherProfileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="100px"
+        android:text="View other profile page"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/viewOtherProfileLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:orientation="horizontal"
+        android:layout_below="@id/viewOtherProfileTitle">
+
+        <TextView
+            android:id="@+id/viewOtherProfileTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Username: "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/viewOtherProfileValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:hint="Write username here..."
+            android:layout_toRightOf="@id/viewOtherProfileTxt"
+            android:paddingLeft="10dp"
+            android:textColorHighlight="#ff7eff15"
+            android:textColorHint="#ffff25e6" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/viewOtherProfileBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewOtherProfileLayout"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="View user profile" />
+
+</RelativeLayout>

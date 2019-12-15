@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/viewOtherLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/otherProfileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/imagetst"/>
+
+        <TextView
+            android:id="@+id/otherProfileUsername"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_below="@id/otherProfileImage"
+            android:layout_centerHorizontal="true"
+            android:text="Username"/>
+
+        <LinearLayout
+            android:id="@+id/detailOtherProfileLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otherProfileUsername"
+            android:layout_marginTop="5mm"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:id="@+id/otherGenderLayout">
+
+                <TextView
+                    android:id="@+id/otherGenderText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gender: "
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/otherGenderValueText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:id="@+id/otherAgeLayout">
+
+                <TextView
+                    android:id="@+id/otherAgeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age: "
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/otherAgeValueText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailOtherProfileLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailOtherProfileLayout1"
+            android:layout_marginTop="4mm"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:id="@+id/otherWeightLayout">
+
+                <TextView
+                    android:id="@+id/otherWeightText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight: "
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/otherWeightValueText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="70"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:id="@+id/otherHeightLayout">
+
+                <TextView
+                    android:id="@+id/otherHeightText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Height: "
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/otherHeightValueText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6'6"
+                    android:paddingLeft="10dp"
+                    android:textColor="#000000"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/aboutOtherText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About me:"
+            android:textColor="#000000"
+            android:layout_below="@id/detailOtherProfileLayout2"
+            android:paddingTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="24dp" />
+        <TextView
+            android:id="@+id/aboutOtherDescription"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:layout_below="@id/aboutOtherText"
+            android:layout_centerHorizontal="true"
+            android:text="Something about me."/>
+    </RelativeLayout>
+</RelativeLayout>

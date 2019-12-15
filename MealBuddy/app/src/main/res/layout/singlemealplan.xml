@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                 <LinearLayout
+                     android:id="@+id/dltbnLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/deletebtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clear Meal Plan for this day." />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/singleLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textday"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/Btext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Breakfast:"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <ListView
+                        android:id="@+id/Blist"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_height="120dp"/>
+                    <TextView
+                        android:id="@+id/Ltext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Lunch:"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <ListView
+                        android:id="@+id/Llist"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_height="120dp"/>
+                    <TextView
+                        android:id="@+id/Dtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Dinner:"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <ListView
+                        android:id="@+id/Dlist"
+                        android:layout_width="match_parent"
+                        android:nestedScrollingEnabled="true"
+                        android:layout_height="120dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/itsempty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="300dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Meal plan for this day is empty."
+                        android:textSize="25sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Why don't you add something?"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

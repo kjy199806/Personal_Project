@@ -1,0 +1,41 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/groceryDialogLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10sp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/ingredientNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredient name: "
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/quantityValueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="Enter Quantity"
+        android:layout_toRightOf="@id/ingredientNameTextView"
+        android:paddingLeft="10dp"
+        android:textColorHighlight="#ff7eff15"
+        android:inputType="number"
+        android:textColorHint="#ffff25e6" />
+
+    <TextView
+        android:id="@+id/measurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/quantityValueText"
+        android:paddingLeft="10dp"
+        android:text="(measure)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

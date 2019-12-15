@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_page"
+            android:title="Home Page"
+            />
+        <!--<item-->
+            <!--android:id="@+id/usr_rcp"-->
+            <!--android:title="User Recipies"-->
+            <!--/>-->
+        <item
+            android:id="@+id/meal_plan"
+            android:title="Meal Plan"
+            />
+        <item
+            android:id="@+id/grocery_list"
+            android:title="Grocery List"
+            />
+        <item
+            android:id="@+id/advcn_search"
+            android:title="Advanced Search"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/policy"
+                android:title="Policy"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                />
+        </menu>
+    </item>
+
+</menu>
